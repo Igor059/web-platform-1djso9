@@ -1,0 +1,45 @@
+.container {
+  padding: 15px;
+  max-height: 300px;
+    
+}
+.block {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.block_img {
+  margin: 6px;
+  display: block;
+  height: 70px;
+  width: 150px;
+  background: red;
+  text-align: center;
+  padding: 70px;
+  font-size: 100px;
+  color: white;
+}
+.t {
+  display:none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  color: silver;
+  top: 105px;
+}
+
+.prev {
+  left: 0;
+  left: 46px;
+}
+.next {
+  right: 0;
+  right: 46px;
+}
+
